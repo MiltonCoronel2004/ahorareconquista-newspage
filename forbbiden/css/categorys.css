@@ -1,0 +1,75 @@
+.bigCategory {
+    background-color: #333;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-position: center center;
+    overflow: hidden; 
+    position: relative
+}
+
+
+.smallCategory {
+  background-color: #333;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  background-position: center center;
+  overflow: hidden; 
+  position: relative;
+}
+
+
+.category-img-word  {
+  position: absolute;
+  top: 65%;
+  max-width: auto;
+  max-height: auto;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease-in-out;
+}
+
+.category-img-word p {
+  margin-top: 10px;
+  max-width: 90%;
+  margin-left: 15px;
+  font-size: 16px !important;
+}
+
+.category-img-word:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+.category-img-word2  {
+  position: absolute;
+  top: 70%;
+  max-width: auto;
+  max-height: auto;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+}
+
+.smallCategory .category-img-word2 p {
+  margin-top: 10px;
+  max-width: 90%;
+  margin-left: 15px;
+  font-size: 16px !important;
+}
+
+.category-img-word2:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+@media(max-width: 531px) {
+  .category-img-word p {
+    font-size: 13px !important;
+  }
+
+  .smallCategory .category-img-word2 p {
+    font-size: 13px !important;
+  }
+}

@@ -1,0 +1,16 @@
+textarea {
+  font-size: 14px !important;
+}
+
+
+.back-button-div .btn {
+  display: inline;
+  border: 1px solid black;
+  max-width: 80px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #c78e56;
+  color: #fff;
+}

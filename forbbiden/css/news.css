@@ -1,0 +1,38 @@
+.card-text {
+  max-height: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.card-body {
+  height: 120px;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  max-height: 200px;
+  min-height: 200px;
+  transition: all 0.4s ease;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+
+}
+
+.card-img-top {
+  min-height: 200px;
+  object-fit: cover; /* Mantener la relación de aspecto de la imagen */
+}
+
+
+.divider {
+  width: 100% !important;
+}

@@ -1,0 +1,49 @@
+.ad-sense div {
+  background-size: cover;
+  width: 728px;
+  height: 90px;
+  background-position: center center;
+  position: absolute;
+  
+}
+
+
+@media(max-width: 1200px) {
+  .ad-sense div {
+    width: 478px;
+    height: 59px;
+
+  }
+}
+
+@media(max-width: 993px) {
+  .ad-sense div {
+    width: 313px;
+    height: 39px;
+    position: absolute;
+    margin-left: 80px;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .ad-sense div {
+    width: 240;
+    height: 30px;
+    left: 50% !important;
+    transform: translate(-65%,-110%) !important;
+  }
+}
+
+
+@media(max-width: 426px) {
+  .ad-sense div {
+    width: 240;
+    height: 30px;
+    top: 17% !important;
+  }
+}
+
+

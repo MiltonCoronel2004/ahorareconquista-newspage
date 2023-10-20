@@ -1,0 +1,41 @@
+.image1, .image2, .image3 {
+  background-color: #333;
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+  min-height: 350px;
+  overflow: hidden;
+}
+
+
+.image-div p {
+  position: absolute;
+  top: 70%;
+  width: 80%;
+  height: auto;
+  background-color: rgba(255, 0, 0, 0.7);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px 0px;
+
+}
+
+.image-div p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+@media(max-width: 768px) {
+  .image-div p{
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 400px) {
+  .image-div p{
+    font-size: 12px;
+  }
+}
+
+
+
